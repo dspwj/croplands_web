@@ -70,9 +70,42 @@
                      layer="layers.overlays.Australia_250m_L3_v20160701"></div>
                     <div table-of-contents-layer
                      layer="layers.overlays.SouthAsia_250m_L4_v20151201"></div>
-                    <div table-of-contents-layer
-                    layer="layers.overlays.UnitedStates_250m_L5_v20160101"></div>
-                </div>
+                    </div>
+
+            <h5 ng-click="expand250mUSLayers=!expand250mUSLayers">
+                250m United States Products
+                <i class="fa fa-fw"
+                   ng-class="{'fa-caret-down': expand250mUSLayers, 'fa-caret-right': !expand250mUSLayers  }">
+                </i>
+            </h5>
+            <div ng-if="expand250mUSLayers" class="padding-left">
+                <div table-of-contents-layer
+                     layer="layers.overlays.UnitedStates_250m_L5_v20170322_2001"></div>
+                <div table-of-contents-layer
+                     layer="layers.overlays.UnitedStates_250m_L5_v20170322_2002"></div>
+                <div table-of-contents-layer
+                     layer="layers.overlays.UnitedStates_250m_L5_v20170322_2003"></div>
+                <div table-of-contents-layer
+                     layer="layers.overlays.UnitedStates_250m_L5_v20170322_2004"></div>
+                <div table-of-contents-layer
+                     layer="layers.overlays.UnitedStates_250m_L5_v20170322_2005"></div>
+                <div table-of-contents-layer
+                     layer="layers.overlays.UnitedStates_250m_L5_v20170322_2006"></div>
+                <div table-of-contents-layer
+                     layer="layers.overlays.UnitedStates_250m_L5_v20170322_2007"></div>
+                <div table-of-contents-layer
+                     layer="layers.overlays.UnitedStates_250m_L5_v20170322_2008"></div>
+                <div table-of-contents-layer
+                     layer="layers.overlays.UnitedStates_250m_L5_v20170322_2009"></div>
+                <div table-of-contents-layer
+                     layer="layers.overlays.UnitedStates_250m_L5_v20170322_2010"></div>
+                <div table-of-contents-layer
+                     layer="layers.overlays.UnitedStates_250m_L5_v20170322_2011"></div>
+                <div table-of-contents-layer
+                     layer="layers.overlays.UnitedStates_250m_L5_v20170322_2012"></div>
+                <div table-of-contents-layer
+                     layer="layers.overlays.UnitedStates_250m_L5_v20170322_2013"></div>
+            </div>
 
             <h5 ng-click="expand1kmLayers=!expand1kmLayers">
                 1km Products
