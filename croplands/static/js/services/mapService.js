@@ -164,11 +164,11 @@ app.factory('mapService', ['leafletLayers', function (leafletLayers) {
                             subdomains: 'abc',
                             //bounds: L.latLngBounds(L.latLng(49.4043, -124.5835), L.latLng(24.5025008881642, -66.8524020590759))
                         },
-                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/NA250products&id=UnitedStates_250m_L5_v20170322_2001&band={band}'
+                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/products&id=UnitedStates_250m_L5_v20170322_2001&band={band}'
                     },
                     legend: [
                         {label: 'Corn-Soybean', color: '#FFFF00'},//1
-                        {label: 'Wheat-Barley', color: '#FF0000'},//2
+                        {label: 'Wheat-Barley', color: '#FF0000'}//2
                     ]
                 },
                 UnitedStates_250m_L5_v20170322_2002: {
@@ -181,7 +181,7 @@ app.factory('mapService', ['leafletLayers', function (leafletLayers) {
                             subdomains: 'abc',
                             bounds: L.latLngBounds(L.latLng(49.4043, -124.5835), L.latLng(24.5025008881642, -66.8524020590759))
                         },
-                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/NA250products&id=UnitedStates_250m_L5_v20170322_2002&band={band}'
+                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/products&id=UnitedStates_250m_L5_v20170322_2002&band={band}'
                     },
                     legend: [
                         {label: 'Corn-Soybean', color: '#FFFF00'},//1
@@ -198,7 +198,7 @@ app.factory('mapService', ['leafletLayers', function (leafletLayers) {
                             subdomains: 'abc',
                             bounds: L.latLngBounds(L.latLng(49.4043, -124.5835), L.latLng(24.5025008881642, -66.8524020590759))
                         },
-                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/NA250products&id=UnitedStates_250m_L5_v20170322_2003&band={band}'
+                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/products&id=UnitedStates_250m_L5_v20170322_2003&band={band}'
                     },
                     legend: [
                         {label: 'Corn-Soybean', color: '#FFFF00'},//1
@@ -215,7 +215,7 @@ app.factory('mapService', ['leafletLayers', function (leafletLayers) {
                             subdomains: 'abc',
                             bounds: L.latLngBounds(L.latLng(49.4043, -124.5835), L.latLng(24.5025008881642, -66.8524020590759))
                         },
-                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/NA250products&id=UnitedStates_250m_L5_v20170322_2004&band={band}'
+                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/products&id=UnitedStates_250m_L5_v20170322_2004&band={band}'
                     },
                     legend: [
                         {label: 'Corn-Soybean', color: '#FFFF00'},//1
@@ -232,7 +232,7 @@ app.factory('mapService', ['leafletLayers', function (leafletLayers) {
                             subdomains: 'abc',
                             bounds: L.latLngBounds(L.latLng(49.4043, -124.5835), L.latLng(24.5025008881642, -66.8524020590759))
                         },
-                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/NA250products&id=UnitedStates_250m_L5_v20170322_2005&band={band}'
+                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/products&id=UnitedStates_250m_L5_v20170322_2005&band={band}'
                     },
                     legend: [
                         {label: 'Corn-Soybean', color: '#FFFF00'},//1
@@ -249,7 +249,7 @@ app.factory('mapService', ['leafletLayers', function (leafletLayers) {
                             subdomains: 'abc',
                             bounds: L.latLngBounds(L.latLng(49.4043, -124.5835), L.latLng(24.5025008881642, -66.8524020590759))
                         },
-                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/NA250products&id=UnitedStates_250m_L5_v20170322_2006&band={band}'
+                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/products&id=UnitedStates_250m_L5_v20170322_2006&band={band}'
                     },
                     legend: [
                         {label: 'Corn-Soybean', color: '#FFFF00'},//1
@@ -266,7 +266,7 @@ app.factory('mapService', ['leafletLayers', function (leafletLayers) {
                             subdomains: 'abc',
                             bounds: L.latLngBounds(L.latLng(49.4043, -124.5835), L.latLng(24.5025008881642, -66.8524020590759))
                         },
-                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/NA250products&id=UnitedStates_250m_L5_v20170322_2007&band={band}'
+                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/products&id=UnitedStates_250m_L5_v20170322_2007&band={band}'
                     },
                     legend: [
                         {label: 'Corn-Soybean', color: '#FFFF00'},//1
@@ -283,7 +283,7 @@ app.factory('mapService', ['leafletLayers', function (leafletLayers) {
                             subdomains: 'abc',
                             bounds: L.latLngBounds(L.latLng(49.4043, -124.5835), L.latLng(24.5025008881642, -66.8524020590759))
                         },
-                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/NA250products&id=UnitedStates_250m_L5_v20170322_2008&band={band}'
+                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/products&id=UnitedStates_250m_L5_v20170322_2008&band={band}'
                     },
                     legend: [
                         // {label: 'Not Classified', color: '#000000'},//0
@@ -306,7 +306,7 @@ app.factory('mapService', ['leafletLayers', function (leafletLayers) {
                             subdomains: 'abc',
                             bounds: L.latLngBounds(L.latLng(49.4043, -124.5835), L.latLng(24.5025008881642, -66.8524020590759))
                         },
-                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/NA250products&id=UnitedStates_250m_L5_v20170322_2010&band={band}'
+                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/products&id=UnitedStates_250m_L5_v20170322_2010&band={band}'
                     },
                     legend: [
                         // {label: 'Not Classified', color: '#000000'},//0
@@ -320,7 +320,7 @@ app.factory('mapService', ['leafletLayers', function (leafletLayers) {
                     ]
                 },
                 UnitedStates_250m_L5_v20170322_2012: {
-                    name: '2010',
+                    name: '2012',
                     visible: false,
                     type: 'xyz',
                     params: {
@@ -329,7 +329,7 @@ app.factory('mapService', ['leafletLayers', function (leafletLayers) {
                             subdomains: 'abc',
                             bounds: L.latLngBounds(L.latLng(49.4043, -124.5835), L.latLng(24.5025008881642, -66.8524020590759))
                         },
-                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/NA250products&id=UnitedStates_250m_L5_v20170322_2012&band={band}'
+                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/products&id=UnitedStates_250m_L5_v20170322_2012&band={band}'
                     },
                     legend: [
                         // {label: 'Not Classified', color: '#000000'},//0
@@ -352,7 +352,7 @@ app.factory('mapService', ['leafletLayers', function (leafletLayers) {
                             subdomains: 'abc',
                             bounds: L.latLngBounds(L.latLng(49.4043, -124.5835), L.latLng(24.5025008881642, -66.8524020590759))
                         },
-                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/NA250products&id=UnitedStates_250m_L5_v20170322_2009&band={band}'
+                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/products&id=UnitedStates_250m_L5_v20170322_2009&band={band}'
                     },
                     legend: [
                   // {label: 'Not Classified', color: '#000000'},//0
@@ -375,7 +375,7 @@ app.factory('mapService', ['leafletLayers', function (leafletLayers) {
                             subdomains: 'abc',
                             bounds: L.latLngBounds(L.latLng(49.4043, -124.5835), L.latLng(24.5025008881642, -66.8524020590759))
                         },
-                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/NA250products&id=UnitedStates_250m_L5_v20170322_2011&band={band}'
+                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/products&id=UnitedStates_250m_L5_v20170322_2011&band={band}'
                     },
                     legend: [
                   // {label: 'Not Classified', color: '#000000'},//0
@@ -398,7 +398,7 @@ app.factory('mapService', ['leafletLayers', function (leafletLayers) {
                             subdomains: 'abc',
                             bounds: L.latLngBounds(L.latLng(49.4043, -124.5835), L.latLng(24.5025008881642, -66.8524020590759))
                         },
-                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/NA250products&id=UnitedStates_250m_L5_v20170322_2013&band={band}'
+                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/products&id=UnitedStates_250m_L5_v20170322_2013_1&band={band}'
                     },
                     legend: [
                   // {label: 'Not Classified', color: '#000000'},//0
