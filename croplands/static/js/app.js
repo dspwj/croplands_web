@@ -1514,7 +1514,7 @@ app.factory('mapService', ['leafletLayers', function (leafletLayers) {
                     attribution: '<a href="http://dx.doi.org/10.1080/17538947.2016.1267269">Teluguntla et al., 2017</a>'
                 },
                 Europe_30m_L1_v20160725: {
-                    name: 'Europe, Russia, Central Asia & Middle East Product 2014',
+                    name: 'Europe, Russia, Central Asia & Middle East Product 2015',
                     visible: true,
                     type: 'xyz',
                     params: {
@@ -2644,11 +2644,8 @@ app.controller("MapController", ['$scope', 'mapService', 'DataService', 'leaflet
         return mapService.center;
     }, function (center) {
         $scope.center = center;
+        $scope.setCenterLocation();
     }, true);
-
-//    $scope.$watch('center', function (center) {
-//        $location.moveCenter(center.lat, center.lng, center.zoom);
-//    });
 
     $scope.$watch('busy', function () {
         if ($scope.busy) {
@@ -2678,6 +2675,14 @@ app.controller("MapController", ['$scope', 'mapService', 'DataService', 'leaflet
     $scope.print = function () {
         window.print();
     };
+
+    // Updates the URL for the current view
+    $scope.setCenterLocation = function () {
+      var lat = mapService.center.lat;
+      var lng = mapService.center.lng;
+      var zoom = mapService.center.zoom;
+      $location.moveCenter(lat, lng, zoom);
+    }
 
 
 //////////
@@ -2721,7 +2726,8 @@ app.controller("MapController", ['$scope', 'mapService', 'DataService', 'leaflet
     init();
 
 }])
-;;
+;
+;
 app.controller("NavbarController", ['$scope', 'User', '$location', function ($scope, User, $location) {
     $scope.goToLogin = function () {
         var n = encodeURIComponent(window.btoa(JSON.stringify({

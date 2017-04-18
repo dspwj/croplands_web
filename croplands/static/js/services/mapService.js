@@ -251,7 +251,7 @@ app.factory('mapService', ['leafletLayers', function (leafletLayers) {
                     attribution: '<a href="http://dx.doi.org/10.1080/17538947.2016.1267269">Teluguntla et al., 2017</a>'
                 },
                 Europe_30m_L1_v20160725: {
-                    name: 'Europe, Russia, Central Asia & Middle East Product 2014',
+                    name: 'Europe, Russia, Central Asia & Middle East Product 2015',
                     visible: true,
                     type: 'xyz',
                     params: {
