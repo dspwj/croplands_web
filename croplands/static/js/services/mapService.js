@@ -412,7 +412,7 @@ app.factory('mapService', ['leafletLayers', function (leafletLayers) {
                     ]
                 },
                 SouthAmerica_30m_L1_v20160101: {
-                    name: 'South America Product 2013-2016',
+                    name: 'South America 2013-2016',
                     visible: true,
                     type: 'xyz',
                     params: {
@@ -428,7 +428,7 @@ app.factory('mapService', ['leafletLayers', function (leafletLayers) {
                     ]
                 },
                 SouthEastAsia_30m_L1_v20160808: {
-                    name: 'South East Asia Product 2014',
+                    name: 'South East Asia 2014',
                     visible: true,
                     type: 'xyz',
                     params: {
@@ -486,7 +486,7 @@ app.factory('mapService', ['leafletLayers', function (leafletLayers) {
                     attribution: '<a href="http://dx.doi.org/10.1080/17538947.2016.1267269">Teluguntla et al., 2017</a>'
                 },
                 Europe_30m_L1_v20160725: {
-                    name: 'Europe, Russia, Central Asia & Middle East Product 2015',
+                    name: 'Europe, Russia, Central Asia & Middle East 2015',
                     visible: true,
                     type: 'xyz',
                     params: {
@@ -502,7 +502,7 @@ app.factory('mapService', ['leafletLayers', function (leafletLayers) {
 
                 },
                 Africa_30m_L1_v20161110: {
-                    name: 'Africa Product 2015',
+                    name: 'Africa 2015',
                     visible: true,
                     type: 'xyz',
                     params: {
@@ -518,7 +518,7 @@ app.factory('mapService', ['leafletLayers', function (leafletLayers) {
                     ]
                 },
                 China_30m_L1_v20170119: {
-                    name: 'China Product Nominal 2014',
+                    name: 'China Nominal 2014',
                     visible: true,
                     type: 'xyz',
                     params: {
@@ -534,7 +534,7 @@ app.factory('mapService', ['leafletLayers', function (leafletLayers) {
                     ]
                 },
                 Mongolia_30m_L1_v20170201: {
-                    name: 'Mongolia Product Nominal 2014',
+                    name: 'Mongolia Nominal 2014',
                     visible: true,
                     type: 'xyz',
                     params: {
