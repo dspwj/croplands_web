@@ -154,8 +154,25 @@ app.factory('mapService', ['leafletLayers', function (leafletLayers) {
                         {label: 'Croplands', color: '#00FF00'}
                     ]
                 },
-                UnitedStates_250m_L5_v20160101: {
-                    name: 'United States GCE 250m Croplands 2008 from ACCA',
+                UnitedStates_250m_L5_v20170322_2001: {
+                    name: '2001',
+                    visible: false,
+                    type: 'xyz',
+                    params: {
+                        options: {
+                            band: 'class',
+                            subdomains: 'abc',
+                            //bounds: L.latLngBounds(L.latLng(49.4043, -124.5835), L.latLng(24.5025008881642, -66.8524020590759))
+                        },
+                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/products&id=UnitedStates_250m_L5_v20170322_2001&band={band}'
+                    },
+                    legend: [
+                        {label: 'Corn-Soybean', color: '#FFFF00'},//1
+                        {label: 'Wheat-Barley', color: '#FF0000'}//2
+                    ]
+                },
+                UnitedStates_250m_L5_v20170322_2002: {
+                    name: '2002',
                     visible: false,
                     type: 'xyz',
                     params: {
@@ -164,16 +181,234 @@ app.factory('mapService', ['leafletLayers', function (leafletLayers) {
                             subdomains: 'abc',
                             bounds: L.latLngBounds(L.latLng(49.4043, -124.5835), L.latLng(24.5025008881642, -66.8524020590759))
                         },
-                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/JustinPoehnelt/products&id=UnitedStates_250m_L5_v20160101&band={band}'
+                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/products&id=UnitedStates_250m_L5_v20170322_2002&band={band}'
                     },
                     legend: [
                         {label: 'Corn-Soybean', color: '#FFFF00'},//1
                         {label: 'Wheat-Barley', color: '#FF0000'},//2
-                        {label: 'Potato', color: '#663300'},//3
-                        {label: 'Alfalfa', color: '#00FF00'},//4
-                        {label: 'Cotton', color: '#00FFFF'},//5
-                        {label: 'Rice', color: '#0000FF'},//6
-                        {label: 'Other Crops', color: '#FF6600'}//7
+                    ]
+                },
+                UnitedStates_250m_L5_v20170322_2003: {
+                    name: '2003',
+                    visible: false,
+                    type: 'xyz',
+                    params: {
+                        options: {
+                            band: 'class',
+                            subdomains: 'abc',
+                            bounds: L.latLngBounds(L.latLng(49.4043, -124.5835), L.latLng(24.5025008881642, -66.8524020590759))
+                        },
+                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/products&id=UnitedStates_250m_L5_v20170322_2003&band={band}'
+                    },
+                    legend: [
+                        {label: 'Corn-Soybean', color: '#FFFF00'},//1
+                        {label: 'Wheat-Barley', color: '#FF0000'},//2
+                    ]
+                },
+                UnitedStates_250m_L5_v20170322_2004: {
+                    name: '2004',
+                    visible: false,
+                    type: 'xyz',
+                    params: {
+                        options: {
+                            band: 'class',
+                            subdomains: 'abc',
+                            bounds: L.latLngBounds(L.latLng(49.4043, -124.5835), L.latLng(24.5025008881642, -66.8524020590759))
+                        },
+                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/products&id=UnitedStates_250m_L5_v20170322_2004&band={band}'
+                    },
+                    legend: [
+                        {label: 'Corn-Soybean', color: '#FFFF00'},//1
+                        {label: 'Wheat-Barley', color: '#FF0000'},//2
+                    ]
+                },
+                UnitedStates_250m_L5_v20170322_2005: {
+                    name: '2005',
+                    visible: false,
+                    type: 'xyz',
+                    params: {
+                        options: {
+                            band: 'class',
+                            subdomains: 'abc',
+                            bounds: L.latLngBounds(L.latLng(49.4043, -124.5835), L.latLng(24.5025008881642, -66.8524020590759))
+                        },
+                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/products&id=UnitedStates_250m_L5_v20170322_2005&band={band}'
+                    },
+                    legend: [
+                        {label: 'Corn-Soybean', color: '#FFFF00'},//1
+                        {label: 'Wheat-Barley', color: '#FF0000'},//2
+                    ]
+                },
+                UnitedStates_250m_L5_v20170322_2006: {
+                    name: '2006',
+                    visible: false,
+                    type: 'xyz',
+                    params: {
+                        options: {
+                            band: 'class',
+                            subdomains: 'abc',
+                            bounds: L.latLngBounds(L.latLng(49.4043, -124.5835), L.latLng(24.5025008881642, -66.8524020590759))
+                        },
+                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/products&id=UnitedStates_250m_L5_v20170322_2006&band={band}'
+                    },
+                    legend: [
+                        {label: 'Corn-Soybean', color: '#FFFF00'},//1
+                        {label: 'Wheat-Barley', color: '#FF0000'},//2
+                    ]
+                },
+                UnitedStates_250m_L5_v20170322_2007: {
+                    name: '2007',
+                    visible: false,
+                    type: 'xyz',
+                    params: {
+                        options: {
+                            band: 'class',
+                            subdomains: 'abc',
+                            bounds: L.latLngBounds(L.latLng(49.4043, -124.5835), L.latLng(24.5025008881642, -66.8524020590759))
+                        },
+                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/products&id=UnitedStates_250m_L5_v20170322_2007&band={band}'
+                    },
+                    legend: [
+                        {label: 'Corn-Soybean', color: '#FFFF00'},//1
+                        {label: 'Wheat-Barley', color: '#FF0000'},//2
+                    ]
+                },
+                UnitedStates_250m_L5_v20170322_2008: {
+                    name: '2008',
+                    visible: false,
+                    type: 'xyz',
+                    params: {
+                        options: {
+                            band: 'class',
+                            subdomains: 'abc',
+                            bounds: L.latLngBounds(L.latLng(49.4043, -124.5835), L.latLng(24.5025008881642, -66.8524020590759))
+                        },
+                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/products&id=UnitedStates_250m_L5_v20170322_2008&band={band}'
+                    },
+                    legend: [
+                        // {label: 'Not Classified', color: '#000000'},//0
+                    {label: 'Corn-Soybean', color: '#FFFF00'},//1
+                    {label: 'Wheat-Barley', color: '#FF0000'},//2
+                    {label: 'Potato', color: '#663300'},//3
+                    {label: 'Alfalfa', color: '#00FF00'},//4
+                    {label: 'Cotton', color: '#00FFFF'},//5
+                    {label: 'Rice', color: '#0000FF'},//6
+                    {label: 'Other Crops', color: '#FF6600'}//7
+                    ]
+                },
+                UnitedStates_250m_L5_v20170322_2010: {
+                    name: '2010',
+                    visible: false,
+                    type: 'xyz',
+                    params: {
+                        options: {
+                            band: 'class',
+                            subdomains: 'abc',
+                            bounds: L.latLngBounds(L.latLng(49.4043, -124.5835), L.latLng(24.5025008881642, -66.8524020590759))
+                        },
+                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/products&id=UnitedStates_250m_L5_v20170322_2010&band={band}'
+                    },
+                    legend: [
+                        // {label: 'Not Classified', color: '#000000'},//0
+                    {label: 'Corn-Soybean', color: '#FFFF00'},//1
+                    {label: 'Wheat-Barley', color: '#FF0000'},//2
+                    {label: 'Potato', color: '#663300'},//3
+                    {label: 'Alfalfa', color: '#00FF00'},//4
+                    {label: 'Cotton', color: '#00FFFF'},//5
+                    {label: 'Rice', color: '#0000FF'},//6
+                    {label: 'Other Crops', color: '#FF6600'}//7
+                    ]
+                },
+                UnitedStates_250m_L5_v20170322_2012: {
+                    name: '2012',
+                    visible: false,
+                    type: 'xyz',
+                    params: {
+                        options: {
+                            band: 'class',
+                            subdomains: 'abc',
+                            bounds: L.latLngBounds(L.latLng(49.4043, -124.5835), L.latLng(24.5025008881642, -66.8524020590759))
+                        },
+                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/products&id=UnitedStates_250m_L5_v20170322_2012&band={band}'
+                    },
+                    legend: [
+                        // {label: 'Not Classified', color: '#000000'},//0
+                    {label: 'Corn-Soybean', color: '#FFFF00'},//1
+                    {label: 'Wheat-Barley', color: '#FF0000'},//2
+                    {label: 'Potato', color: '#663300'},//3
+                    {label: 'Alfalfa', color: '#00FF00'},//4
+                    {label: 'Cotton', color: '#00FFFF'},//5
+                    {label: 'Rice', color: '#0000FF'},//6
+                    {label: 'Other Crops', color: '#FF6600'}//7
+                    ]
+                },
+                UnitedStates_250m_L5_v20170322_2009: {
+                    name: '2009',
+                    visible: false,
+                    type: 'xyz',
+                    params: {
+                        options: {
+                            band: 'class',
+                            subdomains: 'abc',
+                            bounds: L.latLngBounds(L.latLng(49.4043, -124.5835), L.latLng(24.5025008881642, -66.8524020590759))
+                        },
+                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/products&id=UnitedStates_250m_L5_v20170322_2009&band={band}'
+                    },
+                    legend: [
+                  // {label: 'Not Classified', color: '#000000'},//0
+                {label: 'Corn-Soybean', color: '#FFFF00'},//1
+                {label: 'Wheat-Barley', color: '#FF0000'},//2
+                //{label: 'Potato', color: '#663300'},//3
+                {label: 'Alfalfa', color: '#00FF00'},//4
+                {label: 'Cotton', color: '#00FFFF'},//5
+                //{label: 'Rice', color: '#0000FF'},//6
+                //{label: 'Other Crops', color: '#FF6600'}//7
+                    ]
+                },
+                UnitedStates_250m_L5_v20170322_2011: {
+                    name: '2011',
+                    visible: false,
+                    type: 'xyz',
+                    params: {
+                        options: {
+                            band: 'class',
+                            subdomains: 'abc',
+                            bounds: L.latLngBounds(L.latLng(49.4043, -124.5835), L.latLng(24.5025008881642, -66.8524020590759))
+                        },
+                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/products&id=UnitedStates_250m_L5_v20170322_2011&band={band}'
+                    },
+                    legend: [
+                  // {label: 'Not Classified', color: '#000000'},//0
+                {label: 'Corn-Soybean', color: '#FFFF00'},//1
+                {label: 'Wheat-Barley', color: '#FF0000'},//2
+                //{label: 'Potato', color: '#663300'},//3
+                {label: 'Alfalfa', color: '#00FF00'},//4
+                {label: 'Cotton', color: '#00FFFF'},//5
+                //{label: 'Rice', color: '#0000FF'},//6
+                //{label: 'Other Crops', color: '#FF6600'}//7
+                    ]
+                },
+                UnitedStates_250m_L5_v20170322_2013: {
+                    name: '2013',
+                    visible: false,
+                    type: 'xyz',
+                    params: {
+                        options: {
+                            band: 'class',
+                            subdomains: 'abc',
+                            bounds: L.latLngBounds(L.latLng(49.4043, -124.5835), L.latLng(24.5025008881642, -66.8524020590759))
+                        },
+                        url: '//{s}.tiles.croplands.org/{z}/{x}/{y}/tile.png?collection=users/croplandsdev/products&id=UnitedStates_250m_L5_v20170322_2013_1&band={band}'
+                    },
+                    legend: [
+                  // {label: 'Not Classified', color: '#000000'},//0
+                {label: 'Corn-Soybean', color: '#FFFF00'},//1
+                {label: 'Wheat-Barley', color: '#FF0000'},//2
+                //{label: 'Potato', color: '#663300'},//3
+                {label: 'Alfalfa', color: '#00FF00'},//4
+                {label: 'Cotton', color: '#00FFFF'},//5
+                //{label: 'Rice', color: '#0000FF'},//6
+                //{label: 'Other Crops', color: '#FF6600'}//7
                     ]
                 },
                 SouthAmerica_30m_L1_v20160101: {
